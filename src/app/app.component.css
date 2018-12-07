@@ -1,0 +1,52 @@
+img {
+    height: 52px;
+}
+
+nav {
+    background: #65B32B;
+    
+}
+
+  .page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #65b32b;
+}
+
+.page-footer[_ngcontent-c0] {
+    padding-top: unset;
+    color: #fff;
+    background-color: #65b32b;
+}
+
+.btn{
+    background-color: #4c941c;
+}
+
+nav i.material-icons {
+    display: block;
+    font-size: 35px;
+    height: 56px;
+    line-height: 56px;
+}
+
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.9rem;
+    padding: 0;
+}
+
+.page-footer .footer-copyright {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: rgba(241, 239, 239, 0.94);
+    background-color: rgb(101, 179, 43);
+}

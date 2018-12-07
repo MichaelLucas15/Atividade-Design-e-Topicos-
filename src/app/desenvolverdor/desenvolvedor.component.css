@@ -1,0 +1,38 @@
+h2{
+    color: #65B32B;
+    font-size: 2rem;
+}
+
+p{
+    color: #65B32B; 
+    font-size: 1.5rem;
+}
+
+a{
+    color: #65B32B;
+}
+
+
+.card.horizontal .card-image {
+    max-width: 36%;
+}
+
+.card.horizontal .card-image img {
+    border-radius: 2px 0 0 2px;
+    max-width: 57%;
+    width: auto;
+}
+
+.card .card-action {
+    background-color: inherit;
+    border-top: 1px solid rgb(101, 179, 43);
+    position: relative;
+    padding: 16px 24px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #65b32b;
+    margin-right: 24px;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
